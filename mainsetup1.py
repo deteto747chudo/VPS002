@@ -52,7 +52,7 @@ twitch_miner = TwitchChannelPointsMiner(
             disable_notification=True,                                              # Revoke the notification (sound/vibration)
         ),
         discord=Discord(
-            webhook_api="https://discord.com/api/webhooks/1281029709047533579/Bwq6I7Frkrb0DSoPE676to6qVPJ4lNmZeVoRWbr-EZ_asi7WCUsDC7h1q-Oec_Hftn25",  # Discord Webhook URL
+            webhook_api="https://discord.com/api/webhooks/1282055767884562462/8O9ye5Fd_0GJHZ5WHRo4MazshxxkxXBHV9M4wXM7Rz2gT9po_ZQKmkZrlfyGuV5QifN4",  # Discord Webhook URL
             events=[Events.STREAMER_ONLINE, Events.STREAMER_OFFLINE,
                     Events.BET_LOSE, Events.CHAT_MENTION],                                  # Only these events will be sent to the chat
         ),
